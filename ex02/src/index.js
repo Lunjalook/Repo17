@@ -2,8 +2,7 @@
 const workDays = ['MON', 'TUE', 'WED', 'THU', 'FRI'];
 
 function myWeek(days) {
-    let week = [...days];
-    week.push('SAT', 'SUN');
+    let week = [...days].concat(['SAT', 'SUN']);
     return week;
 }
 
