@@ -30,3 +30,7 @@ function findUsers(lastName, gender) {
 }
 console.log(getUsers());
 console.log(findUsers());
+
+findUser("Carrey", "male");
+
+module.exports = findUser;
